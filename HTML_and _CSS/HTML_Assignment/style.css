@@ -1,0 +1,19 @@
+.div1 table{
+                                    
+    border: 1px solid white;
+    border-top-color:wheat;
+    border-left-color:wheat;
+    border-bottom-color:lightgray;
+    border-right-color:lightgray;
+
+}
+
+.div1 th, .div1 tr, .div1 td{
+    
+    border: 1px solid white;
+    border-top-color:lightgray;
+    border-left-color:lightgray;
+    border-bottom-color:wheat;
+    border-right-color:wheat;
+
+}

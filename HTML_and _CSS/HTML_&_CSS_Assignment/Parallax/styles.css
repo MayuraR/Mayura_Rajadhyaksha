@@ -1,0 +1,66 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-family:helvetica;    
+  }
+  
+  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
+    opacity:0.80;
+    background-position:center;
+    background-size:90%;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-color: rgb(48, 55, 61);
+  }
+  
+  .pimg1{
+    background-image:url('img2.jpg');
+    height: 100%;
+    width: 100%;
+  }
+  
+  .pimg2{
+    background-image:url('rome.jpg');
+    min-height:400px;
+  }
+  
+  .pimg3{
+    background-image:url('japan.jpg');
+    min-height:400px;
+  }
+  .pimg4{
+    background-image:url('london.jpg');
+    min-height:400px;
+  }
+  .pimg5{
+    background-image:url('img.jpg');
+    height: 100%;
+    width: 100%;
+  
+  }
+  .section{
+    text-align:center;    
+    background-color: rgb(48, 55, 61);
+    color: wheat;
+    padding:80px 80px;
+  }
+  
+  
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-weight: bold;
+    font-size:60px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  h2{
+    text-transform:uppercase;
+    text-align:center;
+  }
+  
+  
+  

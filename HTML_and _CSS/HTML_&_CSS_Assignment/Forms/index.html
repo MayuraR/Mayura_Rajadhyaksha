@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FEEDBACK FORM</title>
+        <link rel="stylesheet" href="style.css">
+        <h2>restaurant feedback</h2>
+    </head>
+    <body>
+        <div>
+            <form action=" " method="post" class="forms">
+                <table>
+                    <tr>
+                        <td><label for="name" class="label" >Name: </label></td>
+                        <td><input type="text" class="input"  id="name" placeholder="Enter your name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email" class="label" >Email: </label></td>
+                        <td><input type="email" class="input" id="email" placeholder="Enter your email"></td>
+                    </tr>   
+                    <tr>
+                        <td><label for="DOB" class="label" >Age: </label></td>
+                        <td><input type="date" class="input" id="DOB" placeholder="Enter your age"></td>
+                    </tr> 
+                    <tr>
+                        <td><label for="contact" class="label" >Contact: </label></td>
+                        <td><input type="text" class="input" id="contact" placeholder="Enter your contact"></td>
+                    </tr>  
+                </table>
+                
+                <p>Gender: </p>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" name="gender" id="other" value="other">
+                <label for="other">Other</label><br>
+
+                <p>Food Quality:</p>  
+                <input type="radio" name="foodQuality" id="Excellent" value="Excellent">
+                <label for="Excellent">Excellent</label><br>
+                <input type="radio" name="foodQuality" id="Good" value="Good">
+                <label for="Good">Good</label><br>
+                <input type="radio" name="foodQuality" id="Average" value="Average">
+                <label for="Average">Average</label><br>
+                <input type="radio" name="foodQuality" id="Poor" value="Poor">
+                <label for="Poor">Poor</label><br>
+
+                <p>Cleanliness: </p>
+                <input type="radio" name="Cleanliness" id="Excellent" value="Excellent">
+                <label for="Excellent">Excellent</label><br>
+                <input type="radio" name="Cleanliness" id="Good" value="Good">
+                <label for="Good">Good</label><br>
+                <input type="radio" name="Cleanliness" id="Average" value="Average">
+                <label for="Average">Average</label><br>
+                <input type="radio" name="Cleanliness" id="Poor" value="Poor">
+                <label for="Poor">Poor</label><br>
+
+                <p>Speed of Service: </p>
+                <input type="radio" name="Speed" id="Excellent" value="Excellent">
+                <label for="Excellent">Excellent</label><br>
+                <input type="radio" name="Speed" id="Good" value="Good">
+                <label for="Good">Good</label><br>
+                <input type="radio" name="Speed" id="Average" value="Average">
+                <label for="Average">Average</label><br>
+                <input type="radio" name="Speed" id="Poor" value="Poor">
+                <label for="Poor">Poor</label><br>
+
+                <p>Overall Service: </p>
+                <input type="radio" name="overall" id="Excellent" value="Excellent">
+                <label for="Excellent">Excellent</label><br>
+                <input type="radio" name="overall" id="Good" value="Good">
+                <label for="Good">Good</label><br>
+                <input type="radio" name="overall" id="Average" value="Average">
+                <label for="Average">Average</label><br>
+                <input type="radio" name="overall" id="Poor" value="Poor">
+                <label for="Poor">Poor</label><br>
+
+                <p>Any Suggestion?</p>
+                <textarea name="suggestion" id="suggestion"  rows="6" cols="40"></textarea><br>
+
+                <input type="submit" class="button">
+            </form>
+        </div>
+    </body>
+</html>

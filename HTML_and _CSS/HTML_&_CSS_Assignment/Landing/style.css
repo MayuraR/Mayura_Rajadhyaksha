@@ -1,0 +1,124 @@
+
+body,html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: rgb(128, 193, 255);
+    
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 5px;
+    margin: 0 auto;
+}
+.partialbg{
+    grid-column: 1 / 10;
+    grid-row: 1 / 8;
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+.one, .two, .three, .four,.five{
+    background: transparent;
+    padding-top: 30px;
+    padding-left: 1px;
+    color: white;
+    text-align: right;
+}
+.seven, .eight, .nine, .ten{
+    text-align: center;
+    font-weight: bold;
+}
+
+header{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.one{
+    grid-column: 3 / 6;
+    grid-row: 1 / 2;
+    
+}
+.two{
+    grid-column: 7 / 8;
+    grid-row: 1 / 2;
+}
+.three{
+    grid-column: 8 / 9;
+    grid-row: 1 / 2;
+}
+.four{
+    grid-column: 9 / 10;
+    grid-row: 1 / 2;
+}
+.five{
+    grid-column: 2 / 4;
+    grid-row: 3 / 6;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 60px;
+    text-align: left;
+}
+.six{
+    grid-column: 2 / 4;
+    grid-row: 6 / 7;
+    background-color: transparent;
+    height: 40px;
+    width: 300px;
+    font-style: italic;
+}
+.seven{
+    grid-column: 2/3;
+    grid-row-start: 9;
+  }
+.eight{
+    grid-column: 4 / 5;
+    grid-row-start: 9;
+  }
+.nine{
+    grid-column: 6 / 7;
+    grid-row-start: 9;
+  }
+.ten{
+    grid-column: 8 / 9;
+    grid-row-start: 9;
+  }
+.footer{
+    grid-row: 10 / 11;
+    grid-column: 1 / 10;
+    background-color: #333;
+    opacity: 0.75;
+    text-align: center;
+} 
+
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 10px;
+  }
+
+  a:hover{
+    background-color: white;
+    color: lightskyblue;
+  }
+  .textbox{
+      height: 40px;
+      width: 300px;
+      border-radius: 20px;
+      border: 2px, solid, white;
+  }
+.img1{
+    height: 200px;
+    width: 200px;
+}
+
+
+

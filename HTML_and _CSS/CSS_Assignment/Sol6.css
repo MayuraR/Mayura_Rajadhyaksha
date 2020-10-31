@@ -1,0 +1,16 @@
+table, th, td {
+    border: 1px solid green;
+    text-align: left;
+    border-width: 2px;
+  }
+
+  th{
+      font-weight: bold;
+      color: white;
+      background-color: green;
+      text-align: left;
+  }
+  table{
+    table-layout: auto;
+  }
+    

@@ -1,0 +1,14 @@
+body{
+    background-color: lightcyan;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-weight: bold;
+}
+h2{
+    font-weight: bold;
+    text-decoration: line-through;
+}
+h{
+    text-decoration: underline;
+}

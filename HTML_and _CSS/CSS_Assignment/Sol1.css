@@ -1,0 +1,16 @@
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+h1{
+    background-color: blue;
+    padding-bottom: 3%;
+}
+div{
+    margin-top: -3% ;
+    background-color: gray;  
+}
+
+div p{
+    background-color: lightcyan;
+    padding-bottom: 2%;
+}
