@@ -23,7 +23,7 @@
             </header>
             <main class="page-main">
               <p class="p1"> Photography page<br>
-              <button class="work">
+              <button class="work" id="work">
                 View Work
               </button>
               </p>
@@ -48,5 +48,10 @@
                   </ul>
             </footer>
           </div>
+          <script type="text/javascript">
+            document.getElementById("work").onclick = function () {
+                location.href = "#Portfolio";
+            };
+        </script>
     </body>
 </html>
