@@ -1,0 +1,19 @@
+{
+  "name": "assignment1_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Solution1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concat-stream": "^2.0.0",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.6",
+    "prompt-sync": "^4.2.0",
+    "stream-concat": "^0.3.0",
+    "strftime": "^0.10.0"
+  }
+}

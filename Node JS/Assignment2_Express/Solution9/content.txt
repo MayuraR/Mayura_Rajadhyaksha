@@ -1,0 +1,1 @@
+{ "_id" : "01151", "city" : "INDIAN ORCHARD", "loc" : [ -72.505048, 42.153225 ], "pop" : 8702, "state" : "MA" }
