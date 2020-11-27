@@ -1,0 +1,39 @@
+
+<form #form = 'ngForm' >
+
+  <div class='form-group'>
+    <label>ID</label>
+    <input #id type="text" ngModel name='id' >
+  </div>
+
+  <div class='form-group'>
+    <label>Title</label>
+    <input #title=ngModel type="text" name='Title' ngModel required >
+    <small [class.d-none] = "title.valid || title.untouched" class="text-danger">Title is required</small>
+  </div>
+
+  <div class='form-group'>
+    <label>Name</label>
+    <input #name=ngModel type="text" name='Name' [ngModel] = 'userModel.Name'ngModel required>
+    <small [class.d-none] = "title.valid || title.untouched" class="text-danger">name is required</small>
+  </div>
+
+
+  <div class='form-group'>
+    <label>Category</label>
+    <select  name ='Category' ngModel>
+      <option #cat *ngFor = 'let category of category' [value] = 'category'> {{category}} </option>
+    </select>
+  </div>
+
+  <div class='form-group'>
+    <label>Description</label>
+    <input #description type="text" name="Description" ngModel>
+  </div>
+
+  <button type="submit" (click)='onSubmit(form.value)' [disabled] = "title.invalid ">Submit</button>
+
+</form>
+
+<app-advertisement-table-component></app-advertisement-table-component>
+

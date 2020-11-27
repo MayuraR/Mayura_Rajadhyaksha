@@ -1,0 +1,26 @@
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Choose</th>
+    </tr>
+    <tr *ngFor="let r of restaurantList; index as i">
+        <td>{{r}}</td>
+        <td><button (click)='restaurantChosen(i)'>Choose</button></td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>Sr no.</th>
+        <th>Dish</th>
+    </tr>
+    <tr *ngFor="let m of menu; index as i">
+        <td>{{i+1}}</td>
+        <td>{{m}}</td>
+    </tr>
+</table>
+<br>
+<p>Enter dishes seperated by commas</p>
+<input type="text" #order >
+<button (click)='orderNow(order.value)'>Place an order</button>

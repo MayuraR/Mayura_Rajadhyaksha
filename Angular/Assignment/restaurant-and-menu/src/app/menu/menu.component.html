@@ -1,0 +1,35 @@
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Choose</th>
+    </tr>
+    <tr *ngFor="let r of restaurantList; index as i">
+        <td>{{r}}</td>
+        <td><button (click)='restaurantChosen(i)'>Choose</button></td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>item</th>
+        <th>delete</th>
+        <th>edit</th>
+    </tr>
+    <tr *ngFor="let m of menu; index as i">
+        <td>{{m}}</td>
+        
+        <td><button (click) = 'delete(i)' [disabled]='value'>Delete</button></td>
+
+        <td><button (click) = 'edit(i)' [disabled]='value'>Edit</button></td>
+    </tr>
+</table>
+<input type="text" #e placeholder="Enter edited value" [disabled]='editText'>
+<button (click)='editMenu(e.value)' [disabled]='editText'>Edit</button>
+<br>
+<button (click) = 'addEnabled()' [disabled]='value'>Add</button>
+<br>
+<p>Add restauraunt name and it's menu seperated by commas</p>
+<input type="text" #r placeholder="add " [disabled]='addText'>
+<button (click)='add(r.value)' [disabled]='addText'>ADD</button>
+

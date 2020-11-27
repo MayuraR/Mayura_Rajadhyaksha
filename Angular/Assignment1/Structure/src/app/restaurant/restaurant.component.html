@@ -1,0 +1,30 @@
+<p>menu works!</p>
+<table class="table table-striped table-bordered">
+    <tr>
+        <th>Sr no</th>
+        <th>Name</th>
+    </tr>
+        <tr *ngFor="let rest of restaurant; let i = index">
+            <td>{{i+1}}</td>
+            <td>
+                {{rest}}
+            </td>
+        </tr>
+</table>
+<button type="button" (click)="deleteFieldValue()">Delete</button>
+
+<div>
+    <label >Enter name of item to be deleted</label>
+    <input type="text" [disabled]='disable_delete' >
+    <button type="button" [disabled]='disable_delete' (click)="deleteItem()">Delete Item</button>
+</div>
+
+<br>
+<button type="button" (click)="addFieldValue()">Add</button>
+
+<div>
+    <label >Enter item to be added</label>
+    <input type="text" [disabled]='disable_add' [(ngModel)]='item'>
+    <button type="button" [disabled]='disable_add' (click)="addItem()">Add Item</button>
+</div>
+
